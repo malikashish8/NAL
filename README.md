@@ -8,3 +8,10 @@ Download [NAL.class](https://github.com/malikashish8/NAL/raw/master/NAL.class) a
 curl https://github.com/malikashish8/NAL/raw/master/NAL.class -o NAL.class
 java NAL
 ```
+
+If you get java.lang.ClassFormatError compile and run as follows:
+```bash
+curl https://github.com/malikashish8/NAL/raw/master/NAL.java -o NAL.java
+javac NAL.java
+java NAL
+```
